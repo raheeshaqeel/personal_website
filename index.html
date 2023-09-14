@@ -1,0 +1,283 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>  
+    <header class="header" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+        <a  href="#" class="logo">Aqeel.</a>
+
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#about-me">About Me</a>
+            <a href="#portofolio">Portofolio</a>
+            <a href="#gallery">Gallery</a>
+        </nav>
+    </header>
+
+    <section data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" class="home">
+        <!-- mulai text -->
+        <div class="home-content">
+            <h1>Hi, I'm Raheesh Aqeel</h1>
+            <h3>Frontend Developer</h3>
+            <p>A web developer with a knack for crafting engaging and efficient websites. I specialize in front-enddevelopment, using a variety of tools and frameworks to create seamless digital experiences. Let's work together to bring your web project to life!</p>
+            <div class="btn-box">
+                <a href="https://linktr.ee/raheeshaqeel?utm_source=linktree_profile_share&ltsid=b33841e1-eca2-4f1c-b7f4-fb273d43dc13" target="_blank">Hire me</a>
+                <a href="#contact-form">Let's Talk</a>
+            </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="https://medium.com/@qeel" target="_blank"><i class='bx bxl-medium'></i></a>
+            <a href="https://github.com/raheeshaqeel" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/raheesh-a-5ab69b260/" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
+        </div>
+        <!-- end text -->
+
+        <div class="image">
+            <img data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0" src="component/group6.png" alt="photo-1">
+        </div>
+
+        <span class="home-imghover">
+
+        </span>
+    </section>
+
+    <section data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" id="about-me">
+        <div class="img-about">
+            <img src="component/about-img.png" alt="pic-2">
+        </div>
+        
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>Greetings, my name is Muhammad Raheesh Aqeel Utama and usually called Aqeel. I am 16th and I am a vocational high school student. In school I have learned how to design An UI/UX app, how to make an apk, make a poster, a logo design, and now I am starting to learn HTML and CSS for making a web. </p>
+        </div>
+    </section>
+
+    <section data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" id="portofolio">
+        <h2 class="title-1">My Portofolio</h2>
+
+        <div class="list-porto">
+            <ul>
+                <li class="list active" data-filter="ui">UI/UX</li>
+                <li class="list" data-filter="web">Web Design</li>
+                <li class="list" data-filter="brand">Brand Design</li>
+            </ul>
+        </div>
+        
+        <div class="box-ui"> 
+            <div class="photo-project ui">
+                <img class="project-img" src="component/Group 15.png" alt="img-project-1">
+                <img class="project-img" src="component/Group 16.png" alt="img-project-2">
+                <img class="project-img" src="component/Group 17.png" alt="img-project-3">
+                <img class="project-img" src="component/Group 18.png" alt="img-project-4">
+            </div> 
+
+            <div class="photo-project web">
+                <img class="project-img" src="component/Group 19.png" alt="img-project-5">
+                <img class="project-img" src="component/Group 20.png" alt="img-project-6">
+            </div>
+            
+            <div class="photo-project brand">
+                <img class="project-img" src="component/Group 21.png" alt="img-project-7">
+            </div> 
+        </div>  
+    </section>
+
+    <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" id="gallery">
+        <h2>My Gallery</h2>
+        <swiper-container class="mySwiper" pagination-dynamic-bullets="true" grab-cursor="true" effect="fade" loop="true" auto-delay="1000" autoplay-delay="3500">
+            <swiper-slide><img src="component/project4.png" alt="4"></swiper-slide>
+            <swiper-slide><img src="component/project5.png" alt="5"></swiper-slide>
+            <swiper-slide><img src="component/project6.png" alt="6"></swiper-slide>
+            <swiper-slide><img src="component/project7.png" alt="7"></swiper-slide>
+            <swiper-slide><img src="component/project1.png" alt="1"></swiper-slide>
+            <swiper-slide><img src="component/project2.png" alt="2"></swiper-slide>
+            <swiper-slide><img src="component/project3.png" alt="3"></swiper-slide>
+          </swiper-container>
+    </section>
+
+    <section id="faq" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+        <div class="col-faq">
+            <h2>Frequently Asking Questions</h2>
+
+            <div class="accordion">
+                <div class="content-box">
+                    <div class="label">Where do I live?</div>
+                    <div class="content-text">
+                        <p>I live in West Jakarta, Kebon Jeruk, Jl.Kelapa Dua Raya</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion">
+                <div class="content-box">
+                    <div class="label">Where I went to school?</div>
+                    <div class="content-text">
+                        <p>My school is Rabbaanii Vocational High School</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion">
+                <div class="content-box">
+                    <div class="label">What's my skill?</div>
+                    <div class="content-text">
+                        <p>I'm a Frontend Developer and also a desginer especially in UI/UX</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion">
+                <div class="content-box">
+                    <div class="label">Why you should choose me?</div>
+                    <div class="content-text">
+                        <p>Because I will work efficiently with a whole of my heart</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion">
+                <div class="content-box">
+                    <div class="label">Contact me at</div>
+                    <div class="content-text">
+                        <p>Phone: +62 813 107 446 04</p>
+                        <p>Email: raheeshaqeel6@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <h2>Questions? call +62-813-107-446-04</h2>
+        <div class="row">
+            <div class="col">
+                <a href="#">FAQ</a>
+                <a href="#">Privacy</a>
+            </div>
+            <div class="col">
+                <a href="#">Help Center</a>
+                <a href="#">Legal Notices</a>
+            </div>
+            <div class="col">
+                <a href="#">Account</a>
+                <a href="#">Corporate Information</a>
+            </div>
+            <div class="col">
+                <a href="#">Media Center</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact-form">
+        <h2>Contact Form</h2>
+
+        <form>
+            <div class="input-name">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your Name">
+            </div>
+
+            <div class="input-email">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your E-Mail">
+            </div>
+
+            <div class="input-phone">
+                <label for="contact">Phone</label>
+                <input type="number" id="phone" placeholder="Enter your Phone Number">
+            </div>
+
+            <div class="input-message">
+                <label for="message">Message</label>
+                <input type="text" id="message" placeholder="Enter your Message">
+            </div>
+
+            <button type="submit" onclick="bttnSubmit()">Submit</button>
+        </form>
+    </div>
+
+    <button id="btn-up"><i class='bx bxs-balloon'></i></button>
+
+
+    <!-- java-script -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+<script>
+    $(document).ready(function() {
+        $('.photo-project').not('.ui').hide()
+
+        $('.list').click(function() {
+            const value = $(this).attr('data-filter')
+
+            if(value == 'explore') {
+                $('.photo-project').fadeIn(1000);
+            }else{
+                $('.photo-project').not('.'+ value).fadeOut(0);
+                $('.photo-project').filter('.'+ value).fadeIn(200);
+            }
+        })
+
+        $('.list').click(function (){
+            $(this).addClass('active').siblings().removeClass('active')
+        })
+    })
+</script>
+
+<script>
+    const faq = document.getElementsByClassName('content-box');
+
+    for (i = 0; i < faq.length; i++) {
+        faq[i].addEventListener('click', function () {
+            this.classList.toggle('active')
+        })
+    }
+</script>
+
+<script>
+    const bttnSubmit = () => {
+        var name = document.getElementById("name").value
+        var email = document.getElementById("email").value
+        var phone = document.getElementById("phone").value
+        var message = document.getElementById("message").value
+        alert(`Saved! ${name}\nPassword ${email}\nE-mail ${phone}\nMessage ${message}`)
+    }
+</script>
+
+<script>
+    const btnUp = document.getElementById("btn-up")
+    btnUp.addEventListener("click", () =>{
+        window.scrollTo({
+            top:0,
+            behavior:"smooth"
+        })
+    })
+
+    $(btnUp).hide()
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 200){
+            $(btnUp).show().fadeIn(500)
+        }else{
+            $(btnUp).hide().fadeOut(500)
+        }
+    })
+</script>
+
+</body>
+</html>
